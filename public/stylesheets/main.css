@@ -1,0 +1,33 @@
+body {
+  font-size: 12px;
+}
+.CodeMirror {
+  background-color: #CCE2FF;
+  border: 1px solid #eee;
+  height: auto;
+}
+.CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+@media all and (min-width: 30em) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 45em) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 60em) {
+  .editor {
+    width: 50%;
+    float: left;
+  }
+  body {
+    font-size: 14px;
+  }
+}
